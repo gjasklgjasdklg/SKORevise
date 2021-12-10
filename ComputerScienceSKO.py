@@ -4,7 +4,23 @@ import random
 import time 
 def machineLearn():
     #subroutine for machine learning
-    print("Under Construction 👷")
+    print("""Welcome to the Machine Learning revision section! What would you like to do?
+A: Read information
+B: Useful weblinks
+C: Test
+D: Games
+X: Go back to main menu""")
+    choice = input("Enter your choice: ").lower()
+    if choice == "x":
+        menu()
+    elif choice == "a":
+        print("Welcome to the information section!")
+    elif choice == "b":
+        print("Welcome to the list of useful webistes!")
+    elif choice == "c":
+        print("Welcome to the unit test. Good Luck!")
+    elif choice == "d":
+        print("Welcome to the games section!")
 
 def compThink():
     #subroutine for computational thinking
