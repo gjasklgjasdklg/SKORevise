@@ -64,14 +64,14 @@ def menu():
     print("""Welcome to the Computer Science Revision Guide. Topic list(just type the letter of the topic and press enter: 
 A: Machine Learning
 B: Computational Thinking
-C: Fundamentals of algorithms
+C: Fundamentals of Algorithms
 D: Programming
-E: Fundamentals of data representation
+E: Fundamentals of Data Representation
 F: Computer Systems
-G: Fundamentals of computer networks
-H: Fundamentals of cyber security
-I: Relational databases and Structured Query Language (SQL)
-J: Impact of digital technology on society
+G: Fundamentals of Computer Networks
+H: Fundamentals of Cyber Security
+I: Relational Databases and Structured Query Language (SQL)
+J: Impacts of Digital Technology on Society
 X: EXIT PROGRAM""")
     choice = input("Enter your choice: ").lower()
     if choice == "x":
