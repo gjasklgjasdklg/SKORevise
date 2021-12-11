@@ -24,39 +24,183 @@ X: Go back to main menu""")
 
 def compThink():
     #subroutine for computational thinking
-    print("Under Construction 👷")
+        print("""Welcome to the Computational Thinking revision section! What would you like to do?
+A: Read information
+B: Useful weblinks
+C: Test
+D: Games
+X: Go back to main menu""")
+    choice = input("Enter your choice: ").lower()
+    if choice == "x":
+        menu()
+    elif choice == "a":
+        print("Welcome to the information section!")
+    elif choice == "b":
+        print("Welcome to the list of useful webistes!")
+    elif choice == "c":
+        print("Welcome to the unit test. Good Luck!")
+    elif choice == "d":
+        print("Welcome to the games section!")
 
 def algorithims():
     #subroutine for fundamentals of algorithms
-    print("Under Construction 👷")
+        print("""Welcome to the Algorithms revision section! What would you like to do?
+A: Read information
+B: Useful weblinks
+C: Test
+D: Games
+X: Go back to main menu""")
+    choice = input("Enter your choice: ").lower()
+    if choice == "x":
+        menu()
+    elif choice == "a":
+        print("Welcome to the information section!")
+    elif choice == "b":
+        print("Welcome to the list of useful webistes!")
+    elif choice == "c":
+        print("Welcome to the unit test. Good Luck!")
+    elif choice == "d":
+        print("Welcome to the games section!")
 
 def programming():
     #subroutine for programming
-    print("Under Construction 👷")
+        print("""Welcome to the Programming revision section! What would you like to do?
+A: Read information
+B: Useful weblinks
+C: Test
+D: Games
+X: Go back to main menu""")
+    choice = input("Enter your choice: ").lower()
+    if choice == "x":
+        menu()
+    elif choice == "a":
+        print("Welcome to the information section!")
+    elif choice == "b":
+        print("Welcome to the list of useful webistes!")
+    elif choice == "c":
+        print("Welcome to the unit test. Good Luck!")
+    elif choice == "d":
+        print("Welcome to the games section!")
 
 def dataRepresentation():
     #subroutine for fundamentals of data representation
-    print("Under Construction 👷")
+        print("""Welcome to the Data Representation revision section! What would you like to do?
+A: Read information
+B: Useful weblinks
+C: Test
+D: Games
+X: Go back to main menu""")
+    choice = input("Enter your choice: ").lower()
+    if choice == "x":
+        menu()
+    elif choice == "a":
+        print("Welcome to the information section!")
+    elif choice == "b":
+        print("Welcome to the list of useful webistes!")
+    elif choice == "c":
+        print("Welcome to the unit test. Good Luck!")
+    elif choice == "d":
+        print("Welcome to the games section!")
 
 def compSystems():
     #subroutine for computer systems
-    print("Under Construction 👷")
+        print("""Welcome to the Computer Systems revision section! What would you like to do?
+A: Read information
+B: Useful weblinks
+C: Test
+D: Games
+X: Go back to main menu""")
+    choice = input("Enter your choice: ").lower()
+    if choice == "x":
+        menu()
+    elif choice == "a":
+        print("Welcome to the information section!")
+    elif choice == "b":
+        print("Welcome to the list of useful webistes!")
+    elif choice == "c":
+        print("Welcome to the unit test. Good Luck!")
+    elif choice == "d":
+        print("Welcome to the games section!")
 
 def compNetworks():
     #subroutine for funadmentals of computer networks
-    print("Under Construction 👷")
+        print("""Welcome to the Computer Networks revision section! What would you like to do?
+A: Read information
+B: Useful weblinks
+C: Test
+D: Games
+X: Go back to main menu""")
+    choice = input("Enter your choice: ").lower()
+    if choice == "x":
+        menu()
+    elif choice == "a":
+        print("Welcome to the information section!")
+    elif choice == "b":
+        print("Welcome to the list of useful webistes!")
+    elif choice == "c":
+        print("Welcome to the unit test. Good Luck!")
+    elif choice == "d":
+        print("Welcome to the games section!")
 
 def cyberSec():
     #subroutine for fundamentals of cyber security
-    print("Under Construction 👷")
+        print("""Welcome to the Cyber Security revision section! What would you like to do?
+A: Read information
+B: Useful weblinks
+C: Test
+D: Games
+X: Go back to main menu""")
+    choice = input("Enter your choice: ").lower()
+    if choice == "x":
+        menu()
+    elif choice == "a":
+        print("Welcome to the information section!")
+    elif choice == "b":
+        print("Welcome to the list of useful webistes!")
+    elif choice == "c":
+        print("Welcome to the unit test. Good Luck!")
+    elif choice == "d":
+        print("Welcome to the games section!")
 
 def databasesAndSQL():
     #subroutine for relational databases and SQL
-    print("Under Construction 👷")
+        print("""Welcome to the Relational Databases and SQL revision section! What would you like to do?
+A: Read information
+B: Useful weblinks
+C: Test
+D: Games
+X: Go back to main menu""")
+    choice = input("Enter your choice: ").lower()
+    if choice == "x":
+        menu()
+    elif choice == "a":
+        print("Welcome to the information section!")
+    elif choice == "b":
+        print("Welcome to the list of useful webistes!")
+    elif choice == "c":
+        print("Welcome to the unit test. Good Luck!")
+    elif choice == "d":
+        print("Welcome to the games section!")
 
 def impactsOfTechnology():
     #subroutine for impacts of digital technology on society
-    print("Under Construction 👷")
+        print("""Welcome to the Impacts of Digital Technology on Society revision section! What would you like to do?
+A: Read information
+B: Useful weblinks
+C: Test
+D: Games
+X: Go back to main menu""")
+    choice = input("Enter your choice: ").lower()
+    if choice == "x":
+        menu()
+    elif choice == "a":
+        print("Welcome to the information section!")
+    elif choice == "b":
+        print("Welcome to the list of useful webistes!")
+    elif choice == "c":
+        print("Welcome to the unit test. Good Luck!")
+    elif choice == "d":
+        print("Welcome to the games section!")
 
 
 def menu():
