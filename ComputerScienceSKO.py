@@ -14,7 +14,8 @@ X: Go back to main menu""")
     if choice == "x":
         menu()
     elif choice == "a":
-        print("Welcome to the information section!")
+        print("Welcome to the information section!\n")
+        print("What is Machine Learning? This is a system where - rather than a computer programmer deciding the best way to sort, organise, classify or use information - a computer program develops its own set of instructions based on information that users feed it.")
     elif choice == "b":
         print("Welcome to the list of useful webistes!")
     elif choice == "c":
