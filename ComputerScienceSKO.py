@@ -1,21 +1,28 @@
 # imports
 import time
-
-
+from colorama import init, Fore, Back, Style
+init(autoreset=True)
 def machine_learn():
     # subroutine for machine learning
-    print("""Welcome to the Machine Learning revision section! What would you like to do?
-A: Read information
-B: Useful weblinks
-C: Test
-D: Games
-X: Go back to main menu""")
+    print(Fore.GREEN + "Welcome to the Machine Learning revision section! What would you like to do?\n"
++ Fore.GREEN + "A: " + Fore.CYAN + "Read information\n"
++ Fore.GREEN + "B: " + Fore.CYAN + "Useful weblinks\n"
++ Fore.GREEN + "C: " + Fore.CYAN + "Test\n"
++ Fore.GREEN + "D: " + Fore.CYAN + "Games\n"
++ Fore.GREEN + "X: " + Fore.CYAN + "Go back to main menu")
     option = input("Enter your choice: ").lower()
     if option == "x":
         menu()
     elif option == "a":
         print("Welcome to the information section!\n")
-        print("What is Machine Learning? This is a system where - rather than a computer programmer deciding the best way to sort, organise, classify or use information - a computer program develops its own set of instructions based on information that users feed it.\nHow do computers learn? They learn from")
+        print(Fore.GREEN + "What is Machine Learning?")
+        print(Fore.CYAN + "This is a system where - rather than a computer programmer deciding the best way to sort, organise, classify or use information - a computer program develops its own set of instructions based on information that users feed it.\n")
+
+        print(Fore.GREEN + "How do computers learn?")
+        print(Fore.CYAN + "They learn from being given information and figuring out the best way to do things from that information. They look for patterns in very large data sets; the more data they get, the smarter they become.\n")
+
+        print(Fore.GREEN + "Uses of Machine Learning:")
+        print(Fore.CYAN + "Speech Recognition, Customer service chatbots, recommendation systems, and many more.")
     elif option == "b":
         print("Welcome to the list of useful websites!")
     elif option == "c":
